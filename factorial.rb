@@ -27,7 +27,7 @@ inputnum = num
 
 expl = inputnum.to_s
 puts  # insert new line
-puts expl.center(inputnum * 5," ")
+puts expl.center(inputnum * 6," ")
 
 #print expl.rjust(20 - inputnum.to_s.length,'<')
 #puts expl.chop.ljust(20 - inputnum.to_s.length,'>')
@@ -43,7 +43,7 @@ while num >= 1
       expl = expl + ' * ' + num.to_s
       #print expl.rjust(20 - inputnum.to_s.length,'<')
       #puts nil.to_s.chop.ljust(10 - inputnum.to_s.length,'>')
-      puts expl.center(inputnum * 5, " ")  
+      puts expl.center(inputnum * 6, " ")  
     end        
   end  
 end
